@@ -1,0 +1,16 @@
+PODS:
+  - ZSMRecordManager (1.0.0)
+
+DEPENDENCIES:
+  - ZSMRecordManager
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ZSMRecordManager
+
+SPEC CHECKSUMS:
+  ZSMRecordManager: 4e00f9ad14c8ded7dccb70ac46dc31200468afb0
+
+PODFILE CHECKSUM: 969f199aec8a738aa3f60588a24775090ab70080
+
+COCOAPODS: 1.5.2

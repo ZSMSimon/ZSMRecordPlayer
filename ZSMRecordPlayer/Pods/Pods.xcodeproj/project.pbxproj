@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E16CC9F54297A0871DD63C5571D9815 /* RecordingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDD15C4BD9093AD6031169467E68838 /* RecordingManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9EEB2E213C2960FA063BD287DC1B519C /* Pods-ZSMRecordPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E53938B66A3F46602503A9887B667F19 /* Pods-ZSMRecordPlayer-dummy.m */; };
+		A7A1B2EC93F56505CE0EEE36BDCBAB6C /* ZSMRecordManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A41DE8C52D7A7EC39CDFA83283C74C8 /* ZSMRecordManager-dummy.m */; };
+		BC0A0DD1BC233F12C18847FB4475549C /* RecordingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F1F8B3509EF0E2B47F435975EE186C /* RecordingManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C6C8E0FE9524DD6804392AC71838AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE51F11707D574231A91E07723ED45CF;
+			remoteInfo = ZSMRecordManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01208F0D8221CC208B27CE84ABC4DEEF /* libPods-ZSMRecordPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZSMRecordPlayer.a"; path = "libPods-ZSMRecordPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A41DE8C52D7A7EC39CDFA83283C74C8 /* ZSMRecordManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZSMRecordManager-dummy.m"; sourceTree = "<group>"; };
+		0F9F9434E192967191057003C0E30E93 /* Pods-ZSMRecordPlayer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZSMRecordPlayer-frameworks.sh"; sourceTree = "<group>"; };
+		1D846AAD028B8C73FD438F6175B6322D /* Pods-ZSMRecordPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZSMRecordPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31D1EC89F3CFC2CD1F1A79BA650C2844 /* libZSMRecordManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZSMRecordManager.a; path = libZSMRecordManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3816A6A7CFB43437C7B745D6773DD964 /* Pods-ZSMRecordPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZSMRecordPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
+		7854E16D2ED354D0309A12A62B181CBE /* ZSMRecordManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZSMRecordManager-prefix.pch"; sourceTree = "<group>"; };
+		78BEF640C2B0C760BB0CC6E6602C5466 /* Pods-ZSMRecordPlayer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZSMRecordPlayer-resources.sh"; sourceTree = "<group>"; };
+		79301C35B741FD779BB3C97DC2D488E9 /* Pods-ZSMRecordPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSMRecordPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95015A683BB51CFCA45B6E318D0A0023 /* Pods-ZSMRecordPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSMRecordPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		A5F1F8B3509EF0E2B47F435975EE186C /* RecordingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RecordingManager.m; path = RecordManager/RecordingManager.m; sourceTree = "<group>"; };
+		D59700682D2BF2AD3DDB248B0A17E9B8 /* ZSMRecordManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZSMRecordManager.xcconfig; sourceTree = "<group>"; };
+		DBDD15C4BD9093AD6031169467E68838 /* RecordingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RecordingManager.h; path = RecordManager/RecordingManager.h; sourceTree = "<group>"; };
+		E53938B66A3F46602503A9887B667F19 /* Pods-ZSMRecordPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZSMRecordPlayer-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23D25A8B4B5EA04FA3D23E1C3402CBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E559CE33A2DC8F4102EA14BBD556051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10C4A96E0D845B81C9AB509ECF79E968 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80540FFD35E591EE64CCDA4A70CA14CA /* ZSMRecordManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2A562C45B475182676AD46851A3662E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D59700682D2BF2AD3DDB248B0A17E9B8 /* ZSMRecordManager.xcconfig */,
+				0A41DE8C52D7A7EC39CDFA83283C74C8 /* ZSMRecordManager-dummy.m */,
+				7854E16D2ED354D0309A12A62B181CBE /* ZSMRecordManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZSMRecordManager";
+			sourceTree = "<group>";
+		};
+		3A9E323189A30649893FE15DAB67085D /* Pods-ZSMRecordPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1D846AAD028B8C73FD438F6175B6322D /* Pods-ZSMRecordPlayer-acknowledgements.markdown */,
+				3816A6A7CFB43437C7B745D6773DD964 /* Pods-ZSMRecordPlayer-acknowledgements.plist */,
+				E53938B66A3F46602503A9887B667F19 /* Pods-ZSMRecordPlayer-dummy.m */,
+				0F9F9434E192967191057003C0E30E93 /* Pods-ZSMRecordPlayer-frameworks.sh */,
+				78BEF640C2B0C760BB0CC6E6602C5466 /* Pods-ZSMRecordPlayer-resources.sh */,
+				95015A683BB51CFCA45B6E318D0A0023 /* Pods-ZSMRecordPlayer.debug.xcconfig */,
+				79301C35B741FD779BB3C97DC2D488E9 /* Pods-ZSMRecordPlayer.release.xcconfig */,
+			);
+			name = "Pods-ZSMRecordPlayer";
+			path = "Target Support Files/Pods-ZSMRecordPlayer";
+			sourceTree = "<group>";
+		};
+		4E8690F6BB62F2602E76F37292311BB8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A9E323189A30649893FE15DAB67085D /* Pods-ZSMRecordPlayer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		746FC9C0C208D6EDC3C82F3017864695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01208F0D8221CC208B27CE84ABC4DEEF /* libPods-ZSMRecordPlayer.a */,
+				31D1EC89F3CFC2CD1F1A79BA650C2844 /* libZSMRecordManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				10C4A96E0D845B81C9AB509ECF79E968 /* Pods */,
+				746FC9C0C208D6EDC3C82F3017864695 /* Products */,
+				4E8690F6BB62F2602E76F37292311BB8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80540FFD35E591EE64CCDA4A70CA14CA /* ZSMRecordManager */ = {
+			isa = PBXGroup;
+			children = (
+				DBDD15C4BD9093AD6031169467E68838 /* RecordingManager.h */,
+				A5F1F8B3509EF0E2B47F435975EE186C /* RecordingManager.m */,
+				2A562C45B475182676AD46851A3662E8 /* Support Files */,
+			);
+			name = ZSMRecordManager;
+			path = ZSMRecordManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ADFE842498CD867CEB4A625CD4092EF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E16CC9F54297A0871DD63C5571D9815 /* RecordingManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E8AC936E802C413531FD9D21A30631C8 /* Pods-ZSMRecordPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218852493CE3CE4E98611D8D0C08BA4E /* Build configuration list for PBXNativeTarget "Pods-ZSMRecordPlayer" */;
+			buildPhases = (
+				8C1CDB466DEF254D5F67449DF424D955 /* Sources */,
+				8E559CE33A2DC8F4102EA14BBD556051 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CD8703D119A19F7F8F34C693624FA84 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZSMRecordPlayer";
+			productName = "Pods-ZSMRecordPlayer";
+			productReference = 01208F0D8221CC208B27CE84ABC4DEEF /* libPods-ZSMRecordPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FE51F11707D574231A91E07723ED45CF /* ZSMRecordManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301FB7336EC1CA89A2AA3495A1448D97 /* Build configuration list for PBXNativeTarget "ZSMRecordManager" */;
+			buildPhases = (
+				D39AEE8459F507CA1370BF8A48B047C9 /* Sources */,
+				23D25A8B4B5EA04FA3D23E1C3402CBD6 /* Frameworks */,
+				ADFE842498CD867CEB4A625CD4092EF8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSMRecordManager;
+			productName = ZSMRecordManager;
+			productReference = 31D1EC89F3CFC2CD1F1A79BA650C2844 /* libZSMRecordManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 746FC9C0C208D6EDC3C82F3017864695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8AC936E802C413531FD9D21A30631C8 /* Pods-ZSMRecordPlayer */,
+				FE51F11707D574231A91E07723ED45CF /* ZSMRecordManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C1CDB466DEF254D5F67449DF424D955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEB2E213C2960FA063BD287DC1B519C /* Pods-ZSMRecordPlayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39AEE8459F507CA1370BF8A48B047C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0A0DD1BC233F12C18847FB4475549C /* RecordingManager.m in Sources */,
+				A7A1B2EC93F56505CE0EEE36BDCBAB6C /* ZSMRecordManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CD8703D119A19F7F8F34C693624FA84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZSMRecordManager;
+			target = FE51F11707D574231A91E07723ED45CF /* ZSMRecordManager */;
+			targetProxy = 9C6C8E0FE9524DD6804392AC71838AF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3F456CAEF5D1C5CD6B4350EFFC666D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59700682D2BF2AD3DDB248B0A17E9B8 /* ZSMRecordManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZSMRecordManager/ZSMRecordManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZSMRecordManager;
+				PRODUCT_NAME = ZSMRecordManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		892E7E1DACB72E527761380132FEBB7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95015A683BB51CFCA45B6E318D0A0023 /* Pods-ZSMRecordPlayer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A32BDB6AE45483F1F340BD623508D3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59700682D2BF2AD3DDB248B0A17E9B8 /* ZSMRecordManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZSMRecordManager/ZSMRecordManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZSMRecordManager;
+				PRODUCT_NAME = ZSMRecordManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FF90EE5C67972C2F5C15358FF0B29C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79301C35B741FD779BB3C97DC2D488E9 /* Pods-ZSMRecordPlayer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		218852493CE3CE4E98611D8D0C08BA4E /* Build configuration list for PBXNativeTarget "Pods-ZSMRecordPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892E7E1DACB72E527761380132FEBB7D /* Debug */,
+				FF90EE5C67972C2F5C15358FF0B29C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301FB7336EC1CA89A2AA3495A1448D97 /* Build configuration list for PBXNativeTarget "ZSMRecordManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32BDB6AE45483F1F340BD623508D3E3 /* Debug */,
+				3F456CAEF5D1C5CD6B4350EFFC666D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
