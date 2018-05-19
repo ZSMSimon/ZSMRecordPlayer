@@ -414,17 +414,6 @@
     self.recordPlayState = RecordPlayStateError;
 }
 
-//如果音频被中断，比如有电话呼入，该方法就会被回调，该方法可以保存当前播放信息，以便恢复继续播放的进度
-- (void)audioPlayerBeginInterruption:(AVAudioPlayer *)player {
-    if (self.playPauseBlock) {
-        self.playPauseBlock();
-    }
-    
-    [self pausePlayRecord];
-    
-    self.recordPlayState = RecordPlayStatePause;
-}
-
 //声波强度转分贝
 + (int)dbAudioPowerConversion:(CGFloat)power {
     
